@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#00abcf</color>
+    <color name="red">#ff0000</color>
+    <color name="light_blue">#c0ecfa</color>
+
+    <color name="pad_blue">#6187b0</color>
+    <color name="pad_dark_blue">#405873</color>
+
+    <color name="dark_gray">#a9a9a9</color>
+    <color name="light_gray">#acacac</color>
+
+    <color name="nice_blue">#00159b</color>
+    <color name="medium_blue">#001dd9</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="medal_item_background">#6187b0</color>
+    <color name="medal_name_background">#405873</color>
+    <color name="product_item_background">#001dd9</color>
+    <color name="product_name_background">#00159b</color>
+    <color name="yokai_item_background">#4d866a</color>
+    <color name="yokai_name_background">#335845</color>
+
+</resources>

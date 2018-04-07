@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Yokai Watch Medals</string>
+
+    <string name="title_spinner_app_lang">Application language</string>
+    <string name="title_spinner_medal_lang">Medal name language</string>
+    <string name="title_spinner_product_lang">Product name language</string>
+    <string name="title_spinner_yokai_lang">Yo-kai name langue</string>
+
+    <string-array name="app_lang_titles">
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>Pусский</item>
+        <item>한국의</item>
+    </string-array>
+
+    <string-array name="app_lang_values">
+        <item>DE</item>
+        <item>EN</item>
+        <item>ES</item>
+        <item>FR</item>
+        <item>IT</item>
+        <item>JP_kanji</item>
+        <item>RU</item>
+        <item>KR</item>
+    </string-array>
+
+    <string name="current_app_lang_title">App language</string>
+
+    <string-array name="other_lang_titles">
+        <item>@string/current_app_lang_title</item>
+        <item>日本語</item>
+        <item>romaji</item>
+    </string-array>
+
+    <string-array name="other_lang_values">
+        <item/>
+        <item>JP_kanji</item>
+        <item>JP_romaji</item>
+    </string-array>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="title_medal_grid">Japanese medals</string>
+    <string name="title_product_list">Japanese products</string>
+    <string name="title_yokai_grid">All Yo-kai</string>
+
+    <string name="spinner_medalserie_title">Serie:</string>
+    <string name="spinner_medaltype_title">Type:</string>
+    <string name="spinner_medalcolor_title">Color:</string>
+    <string name="spinner_producttype_title">Category:</string>
+    <string name="spinner_yokaigame_title">Game:</string>
+    <string name="spinner_yokaitribe_title">Tribe:</string>
+    <string name="spinner_yokaitype_title">Type:</string>
+
+    <string name="menu_sortby_title">Sort by</string>
+    <string name="menu_sortby_name">Name</string>
+    <string name="menu_sortby_code">Code</string>
+    <string name="menu_sortby_date">Date</string>
+
+    <string name="medal_page_product_list_title">Products with this medal</string>
+    <string name="medal_page_yokai_list_title">Yokai on this medal</string>
+    <string name="product_page_medal_list_title">Medals in this product</string>
+    <string name="yokai_page_medal_list_title">Medals with this Yokai</string>
+
+    <string name="title_activity_preferences">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_fragment_general_preferences">General settings</string>
+
+    <string name="title_HQ_images_medal">Enable HQ images of medals</string>
+    <string name="summary_HQ_images_medal">Will clear medal cache otherwise</string>
+
+    <string name="title_HQ_images_product">Enable HQ images of products</string>
+    <string name="summary_HQ_images_product">Will clear product cache otherwise</string>
+
+    <string name="title_HQ_images_yokai">Enable HQ images of Yo-kai</string>
+    <string name="summary_HQ_images_yokai">Will clear Yo-kai cache otherwise</string>
+
+
+</resources>

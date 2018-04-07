@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yokai Watch Medals</string>
+    <string name="medal_page_product_list_title">Produits qui ont cette médaille</string>
+    <string name="medal_page_yokai_list_title">Yo-kai qui apparaissent sur cette médaille</string>
+    <string name="product_page_medal_list_title">Médailles trouvables dans ce produit</string>
+    <string name="yokai_page_medal_list_title">Médailles qui figurent ce Yo-kai</string>
+    <string name="title_activity_preferences">Paramètres</string>
+    <string name="menu_sortby_code">Code</string>
+    <string name="menu_sortby_date">Date</string>
+    <string name="menu_sortby_name">Nom</string>
+    <string name="menu_sortby_title">Tri par</string>
+    <string name="spinner_medalcolor_title">Couleur :</string>
+    <string name="spinner_medalserie_title">Série :</string>
+    <string name="spinner_medaltype_title">Type :</string>
+    <string name="spinner_producttype_title">Catégorie :</string>
+    <string name="spinner_yokaigame_title">Jeu :</string>
+    <string name="spinner_yokaitribe_title">Tribu :</string>
+    <string name="spinner_yokaitype_title">Type :</string>
+    <string name="title_medal_grid">Médailles japonaises</string>
+    <string name="title_product_list">Produits japonais</string>
+    <string name="title_yokai_grid">Tous les Yo-kai</string>
+    <string name="current_app_lang_title">Langue de l\'app</string>
+    <string name="title_activity_about">A propos</string>
+    <string name="title_fragment_general_preferences">Paramètres généraux</string>
+    <string name="title_HQ_images_medal">Activer images HD des médailles</string>
+    <string name="title_HQ_images_product">Activer les images HD des produits</string>
+    <string name="title_HQ_images_yokai">Activer les images HD des Yo-kai</string>
+    <string name="summary_HQ_images_medal">Vide le cache médaille sinon</string>
+    <string name="summary_HQ_images_product">Vide le cache produit sinon</string>
+    <string name="summary_HQ_images_yokai">Vide le cache Yo-kai sinon</string>
+    <string name="title_spinner_app_lang">Langue de l\'application</string>
+    <string name="title_spinner_medal_lang">Langue des noms de médailles</string>
+    <string name="title_spinner_product_lang">Langue des noms des produits</string>
+    <string name="title_spinner_yokai_lang">Langue des noms des Yo-kai</string>
+</resources>

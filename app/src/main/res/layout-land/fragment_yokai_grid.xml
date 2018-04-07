@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.davidpapazian.yokaiwatchmedals.gui.MedalGrid.MedalGridFragment">
+
+    <LinearLayout
+        android:id="@+id/top_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:background="@color/nice_blue">
+
+        <LinearLayout
+            android:id="@+id/spinners"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_margin="2dp">
+
+            <include
+                layout = "@layout/spinner_line"
+                android:id="@+id/spinner_yokai_game">
+            </include>
+
+            <include
+                layout = "@layout/spinner_line"
+                android:id="@+id/spinner_yokai_tribe">
+            </include>
+
+            <include
+                layout = "@layout/spinner_line"
+                android:id="@+id/spinner_yokai_type">
+            </include>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:clipToPadding="false"
+        android:fastScrollEnabled="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        android:gravity="center"
+        android:layout_below="@id/top_pannel"/>
+
+</RelativeLayout>
+

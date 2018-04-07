@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="1dp"
+        android:layout_marginLeft="3dp"/>
+    <com.davidpapazian.yokaiwatchmedals.views.AutoFitTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="3dp"
+        android:textColor="@color/black"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="AutoFitTextViewAttributes">
+        <attr name="maxSize" format="integer" />
+        <attr name="minSize" format="integer" />
+    </declare-styleable>
+</resources>

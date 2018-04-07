@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:order="1"
+        android:key="medal_500_enabled"
+        android:defaultValue="false"
+        android:textColor="@color/black"
+        android:summary="@string/summary_HQ_images_medal"
+        android:title="@string/title_HQ_images_medal"
+        android:layout="@layout/preference_checkbox_custom"/>
+
+    <CheckBoxPreference
+        android:order="1"
+        android:key="product_500_enabled"
+        android:defaultValue="false"
+        android:textColor="@color/black"
+        android:summary="@string/summary_HQ_images_product"
+        android:title="@string/title_HQ_images_product"
+        android:layout="@layout/preference_checkbox_custom"/>
+
+    <CheckBoxPreference
+        android:order="1"
+        android:key="yokai_500_enabled"
+        android:defaultValue="false"
+        android:textColor="@color/black"
+        android:summary="@string/summary_HQ_images_yokai"
+        android:title="@string/title_HQ_images_yokai"
+        android:layout="@layout/preference_checkbox_custom"/>
+
+    <Preference
+        android:order="3"
+        android:key="reinitialise_medal_library"
+        android:textColor="@color/black"
+        android:summary="reinitialise_medal_library"
+        android:title="reinitialise_medal_library"/>
+
+    <CheckBoxPreference
+        android:order="4"
+        android:key="only_yokai_on_medals"
+        android:defaultValue="true"
+        android:textColor="@color/black"
+        android:summary="only_yokai_on_medals"
+        android:title="only_yokai_on_medals"
+        android:layout="@layout/preference_checkbox_custom"/>
+</PreferenceScreen>
